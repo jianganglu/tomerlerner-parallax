@@ -1,0 +1,160 @@
+/* common
+--------------------------------- */
+html, body {
+  width: 100%;
+  height: 12500px;
+  background: url(../img/bg.jpg) top center no-repeat #000;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* btns
+--------------------------------- */
+.btns {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -260px;
+  height: 520px;
+  z-index: 101;
+}
+
+.btns li a {
+  position: relative;
+  padding: 25px 0 25px 25px;
+  color: #fff;
+  left: 0;
+  display: block;
+  width: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 300;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  -webkit-transition: width .3s ease-in-out, padding .3s ease-in-out;
+  -moz-transition: width .3s ease-in-out, padding .3s ease-in-out;
+  transition: width .3s ease-in-out, padding .3s ease-in-out;
+}
+
+.orange_btn a {
+  background-color: #f70;
+  background-position: right -3px;
+}
+
+.apple_btn a {
+  background-color: #86c700;
+  background-position: right -80px;
+}
+
+.strawberry_btn a {
+    background-color: #bf0404;
+    background-position: right -160px;
+}
+
+.peach_btn a {
+  background-color: #f07a5c;
+  background-position: right -240px;
+}
+
+.banana_btn a {
+  background-color: #ffd71a;
+  background-position: right -322px;
+}
+
+.share_btn a {
+  background-color: #35a2ca;
+  background-position: right -475px;
+}
+
+.top_btn a {
+  background-color: #373737;
+  background-position: right -402px;
+}
+
+/* header
+-------------------------------- */
+.header {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 654px;
+  height: 162px;
+  margin-top: -81px;
+  margin-left: -327px;
+  z-index: 1;
+}
+
+.header li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 654px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* orange
+-------------------------------- */
+.txt {
+  position: fixed;
+  z-index: 1001;
+  top: 20px;
+  right: 0;
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+}
+
+.txt li {
+  padding: 10px 20px 12px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 1;
+  white-space: nowrap;
+  font-weight: 300px;
+  margin-bottom: 7px;
+  color: #fff;
+  -webkit-transform-origin: right;
+  -moz-transform-origin: right;
+  -ms-transform-origin: right;
+  transform-origin: right;
+}
+
+@media only screen and (max-width: 1520px) {
+  .txt li {
+    padding: 5px 8px 7px;
+    font-size: 28px;
+  }
+}
+
+.round {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 850px;
+  height: 85px;
+  margin-top: -425px;
+  margin-left: -425px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1520px) {
+  .round {
+    width: 700px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -350px;
+  }
+}
+
+.orange_ver,
+.orange_line,
+.round_orange,
+.orange_txt li {
+  background: #f70;
+}
