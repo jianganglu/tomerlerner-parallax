@@ -158,3 +158,185 @@ html, body {
 .orange_txt li {
   background: #f70;
 }
+
+.ver {
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  z-index: 0;
+  -webkit-transform: skew(-15deg, 0deg);
+  -moz-transform: skew(-15deg, 0deg);
+  -o-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+}
+
+.white_ver {
+  background: #fff;
+}
+
+.line {
+  position: fixed;
+  width: 20px;
+  right: 2;
+  z-index: 2;
+}
+
+.shire {
+  position: fixed;
+  left: 20%;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shire_1 {
+  left: 20%;
+  margin-top: -100px;
+}
+
+.orange_shire_1 {
+  background-image: url(../img/orange_shire.png);
+}
+
+.shire_2 {
+  left: 80%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: -100px;
+}
+
+.orange_shire_2 {
+  background-color: #f70;
+  background-image: url(../img/orange_shire.png);
+}
+
+.frames_con {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.frames_con li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.frames_con li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+/* apple
+-------------------------------- */
+.apple_ver,
+.apple_line,
+.round_apple,
+.apple_txt li {
+  background: #86c700;
+}
+
+.apple_shire_1 {
+  background-image: url(../img/apple_shire.png);
+}
+
+.apple_shire_2 {
+  background-color: #86c700;
+  background-image: url(../img/apple_shire.png);
+}
+
+/* strawberry
+-------------------------------- */
+.strawberry_ver,
+.strawberry_line,
+.round_strawberry,
+.strawberry_txt li {
+  background: #bf0404;
+}
+
+.strawberry_shire_1 {
+  background-image: url(../img/strawberry_shire.png);
+}
+
+.strawberry_shire_2 {
+  background-color: #bf0404;
+  background-image: url(../img/strawberry_shire.png);
+}
+
+/* peach
+-------------------------------- */
+.peach_ver,
+.peach_line,
+.round_peach,
+.peach_txt li {
+  background: #f07a5c;
+}
+
+.peach_shire_1 {
+  background-image: url(../img/peach_shire.png);
+}
+
+.peach_shire_2 {
+  background-color: #f07a5c;
+  background-image: url(../img/peach_shire.png);
+}
+
+/* banana
+-------------------------------- */
+.banana_ver,
+.banana_line,
+.round_banana,
+.banana_txt li {
+  background: #ffd71a;
+}
+
+.banana_shire_1 {
+  background-image: url(../img/banana_shire.png);
+}
+
+.banana_shire_2 {
+  background-color: #ffd71a;
+  background-image: url(../img/banana_shire.png);
+}
+
+/* footer
+-------------------------------- */
+.footer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 668px;
+  height: 210px;
+  margin-top: -105px;
+  margin-left: -334px;
+  z-index: 1;
+}
+
+#share {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 100;
+  background: #fff;
+}
+
+#_atssh {
+  width: 1px!important;
+  height: 1px!important;
+  border: 0!important;
+}
